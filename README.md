@@ -18,7 +18,7 @@ It is primarily used to calculate the dynamics of the Heisenberg model of intera
 The Neural Quantum States simulations are performed with the Restricted Boltzmann Machine (RBM) neural network as a variational ansatz:
 $\Psi (s) = \prod_{j=1}^M 2\cosh{(\theta_j (s))}$. Here, $M = \alpha N$ defines the expressivity of the neural network, $s$ is a configuration of the lattice, and $\theta_j = b_j + \sum_i s_i^z w_{ij}$ includes the biases $b_j$ and weights $w_{ij}$ of the network.
 
-This repository was constructed as a supplement to the following [paper](). In this guide, we will explain how to enable the use of the code, provide a description of the code structure, and give a few examples of its usage.
+This repository was constructed as a supplement to the following [paper](https://doi.org/10.48550/arXiv.2507.17421). In this guide, we will explain how to enable the use of the code, provide a description of the code structure, and give a few examples of its usage.
 
 # 💽 **Installation**
 
@@ -78,7 +78,7 @@ The code provides many options for performing the above-mentioned calculations. 
 - two integrators: `'heun'` and `'implicit_midpoint'`,
 - three different formulations: `'regularization'`, `'diagonalization'`, and `'geometric'`.
 
-These options are often analysed in the mentioned [paper]().
+These options are often analysed in the mentioned [paper](https://doi.org/10.48550/arXiv.2507.17421).
 
 # ✍️ **Authors and acknowledgments**
 
